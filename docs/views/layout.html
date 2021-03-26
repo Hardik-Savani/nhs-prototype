@@ -1,0 +1,67 @@
+<!-- Extends the layout from /docs/views/template.html -->
+{% extends "template.html" %}
+
+{% block headCSS %}
+  <link href="/css/main.css" rel="stylesheet">
+  <link href="/css/prism.css" rel="stylesheet">
+  <link href="/css/docs.css" rel="stylesheet">
+{% endblock %}
+
+{% block pageTitle %}
+  NHS.UK prototype kit
+{% endblock %}
+
+{% block header %}
+  <header class="nhsuk-header nhsuk-header--logo-only" role="banner">
+    <div class="nhsuk-width-container nhsuk-header__container">
+      <div class="nhsuk-header__logo">
+        <a class="nhsuk-header__link nhsuk-header__link--service" href="/docs" aria-label="NHS.UK prototype kit home">
+          <svg class="nhsuk-logo nhsuk-logo--white" xmlns="http://www.w3.org/2000/svg" role="presentation" focusable="false" viewBox="0 0 40 16">
+            <path fill="#fff" d="M0 0h40v16H0z"></path>
+            <path class="cls-2" d="M261,28.91V0H189.22V28.91ZM218.08,2.79l-5,23.27h-7.78L200.46,10h-.07l-3.25,16.1h-5.9l5-23.27H204l4.79,16.13h.07l3.28-16.13Zm22.24,0-4.86,23.27H229.2l2.08-10h-7.41l-2.08,10h-6.26l4.86-23.27h6.26l-1.84,8.9h7.4l1.84-8.9Zm18,.63L256.8,8.06A11.83,11.83,0,0,0,251.64,7c-2.48,0-4.49.36-4.49,2.23,0,3.3,9.08,2.07,9.08,9.13,0,6.43-6,8.1-11.42,8.1a26.22,26.22,0,0,1-7.23-1.2L239,20.52a12.22,12.22,0,0,0,5.76,1.34c1.95,0,5-.37,5-2.77,0-3.73-9.08-2.33-9.08-8.9,0-6,5.29-7.8,10.42-7.8a19.1,19.1,0,0,1,7.17,1Z"/></path>
+            <image src="/images/bsa_logo.svg" xlink:href=""></image>
+          </svg>
+          <span class="nhsuk-header__service-name">
+          Prototype kit
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+{% endblock %}
+
+{% block footer %}
+
+  <footer role="contentinfo">
+    <div class="nhsuk-footer" id="nhsuk-footer">
+      <div class="nhsuk-width-container">
+        <div class="nhsuk-grid-row">
+          <div class="nhsuk-grid-column-full">
+            <p class="nhsuk-u-secondary-text-color nhsuk-u-font-size-16">This website only stores the cookies that are needed to make it work. Read more about how <a href="/docs/cookies" class="nhsuk-footer__list-item-link">we use cookies.</a></p>
+          </div>
+        </div>
+
+        <div class="nhsuk-grid-row">
+          <div class="nhsuk-grid-column-full">
+            <h2 class="nhsuk-u-visually-hidden">Support links</h2>
+            <ul class="nhsuk-footer__list">
+              <li class="nhsuk-footer__list-item"><a class="nhsuk-footer__list-item-link" href="/docs">Home</a></li>
+              <li class="nhsuk-footer__list-item"><a class="nhsuk-footer__list-item-link" href="/docs/about">About and support</a></li>
+              <li class="nhsuk-footer__list-item"><a class="nhsuk-footer__list-item-link" href="https://github.com/nhsuk/nhsuk-prototype-kit">NHS.UK prototype kit - GitHub</a></li>
+            </ul>
+
+            <p class="nhsuk-footer__copyright">&copy; Crown copyright</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+{% endblock %}
+
+{% block bodyEnd %}
+  {% block scripts %}
+    {% include "includes/scripts.html" %}
+    {% block pageScripts %}{% endblock %}
+  {% endblock %}
+{% endblock %}

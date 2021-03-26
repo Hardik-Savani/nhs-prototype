@@ -1,0 +1,751 @@
+.app-beta__container {
+    border-bottom: 1px solid #d8dde0;
+    padding: 8px 0;
+
+}
+
+.app-beta__content {
+    display: table;
+    margin-bottom: 0;
+}
+.nhsuk-main-wrapper{
+  padding-top:0px !important;
+}
+.app-beta__text {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+.done-panel {
+    background-color: #005EB8;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    margin: 30px 0;
+}
+.thank-you h1{
+    margin-bottom: 20px !important;
+}
+#done-tick {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 4px 20px 4px 4px;
+    background-color: #005EB8;
+    background-image: url(../images/done-tick.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pagination__summary {
+    float: right;
+}
+.pagination__summary {
+    padding: 8px 0;
+}
+.pagination {
+    padding: 0;
+}
+.pagination__item {
+    display: inline-block;
+    list-style: none;
+}
+.pagination li{
+    padding-right: 20px;
+}
+
+.print-page {
+    float: right !important;
+    // margin: 30px 0 !important;
+    vertical-align: middle;
+    display: flex;
+}
+
+.already-paid .print-page {
+    float: right !important;
+    margin: 15px 0 !important;
+
+}
+
+.icon {
+    display: inline-block;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.print-icon {
+    height: 32px;
+    background-image: url(../images/icon-print.png);
+    padding-left: 48px;
+    line-height: 30px;
+}
+
+/*.nhsuk-label{
+  font-weight:bold;
+}*/
+.nhsuk-u-margin-bottom-8 {
+    margin-bottom: 30px !important;
+    margin-top: 5px !important;
+    }
+.nhsuk-back-link-spc{
+    margin-top: 10px !important;
+    margin-bottom: 60px !important;
+}
+
+.remove-margin-bottom-h1{
+    margin-bottom: 25px !important;
+
+}
+
+table th.numerics {
+    text-align: center;
+}
+
+table td.numerics {
+    text-align: center;
+}
+
+table th.numeric {
+    text-align: right;
+}
+
+table td.numeric {
+    text-align: right;
+}
+
+.app-c-tag--danger {
+    background-color: #df3034;
+    color: #fff !important;
+}
+
+.app-c-tag {
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.25;
+    padding: 4px 8px;
+    text-decoration: none;
+    }
+
+    th, td {
+    padding-top: 10px;
+}
+
+
+
+/* footer */
+
+
+
+#footer ul {
+    margin: 0 0 15px 0;
+}
+
+#footer ul {
+    font-size: 16px !important;
+    line-height: 1.5;
+}
+
+#footer  ul {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 14px;
+    line-height: 1.5;
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+.footer-info{
+  font-size: 16px !important;
+  padding-top:10px;
+}
+
+.bsa-account-details-bar__action {
+    float: right;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-top: 20px !important;
+}
+
+ #footer ul li {
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+
+#footer .open-government-licence {
+    padding-left: 53px;
+}
+
+.bold {
+    font-weight: 700;
+}
+.open-government-licence {
+    clear: left;
+    position: relative;
+    font-size:16px !important;
+    padding-top:20px;
+
+}
+h1.margn-tp, {
+    margin-top: 48px !important;
+}
+
+.multi-ea-top{
+    margin-top: 15px !important;
+}
+
+p.multi-ea-p{
+    margin-bottom: 10px !important;
+}
+.multi-ea-top-make{
+    margin-top: 15px !important;
+}
+.multi-ea-top-make{
+    margin-top: 10px !important;
+}
+
+.govuk-input__prefix, .govuk-input__suffix {
+    font-family: "GDS Transport",arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 40px;
+    min-width: 2.5rem;
+    height: 40px;
+    height: 2.5rem;
+    padding: 5px;
+    border: 2px solid #0b0c0c;
+    background-color: #f3f2f1;
+    text-align: center;
+    white-space: nowrap;
+    cursor: default;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+.govuk-input__prefix {
+    border-right: 0;
+}
+
+.govuk-input__prefix, .govuk-input__suffix {
+    font-size: 19px;
+    font-size: 1.1875rem;
+    line-height: 1.31579;
+}
+.ea{
+
+}
+.ea hr.removehr, .removehr
+{
+    margin-top: 5px !important;
+    margin-bottom: 30px !important;
+}
+.ea h5, ul.remove-box-margin-bottom{
+    margin-bottom: 0px !important;
+}
+
+.ea .margin-bt{
+    margin-bottom: 15px !important;
+}
+
+.ea h1.margn-tp, h2.margn-tp{
+    margin-top: 24px !important;
+}
+
+.multi-ea-emp{
+    margin-top: 45px !important;
+}
+
+.multi-ea-bottom h2{
+    margin-bottom: 0px !important;
+}
+
+.multi-ea-hr{
+margin-top: 20px !important;
+}
+
+.ea-normal-fnt{
+    font-weight: 100 !important;
+        margin-left: 10px;
+}
+
+.ea .bsa-account-details-bar__action{
+    margin-top: 0px !important;
+}
+
+#footer .open-government-licence .logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 41px;
+    height: 100%;
+}
+
+
+#footer .open-government-licence .logo {
+    margin-bottom: 1em;
+    padding-top: 0;
+}
+
+#footer .open-government-licence p {
+    font-size: 16px !important;
+    line-height: 1.25;
+}
+
+.footer-wrapper, .open-government-licence, .footer-info
+{
+color: #454a4c !important;
+}
+
+#footer a {
+    color: #454a4c !important;
+}
+
+#footer .open-government-licence p {
+    font-family: "nta", Arial, sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 14px;
+    line-height: 1.14286;
+    margin: 0;
+    padding-top: 0.1em;
+}
+
+#footer .open-government-licence .logo a {
+    background-image: url(images/open-government-licence_2x.png);
+    background-size: 41px 17px;
+}
+
+
+#footer .open-government-licence .logo a {
+    display: block;
+    width: 41px;
+    height: 17px;
+    overflow: hidden;
+    text-indent: -999em;
+    background: url(images/open-government-licence_2x.png) 0 0 no-repeat;
+}
+
+
+@media (min-width: 40.0625em){
+h3, .nhsuk-heading-m {
+    margin-top: 5px;
+}
+
+}
+
+
+
+#nhs-global-header #logo img {
+    margin: 2px 1px 0 0;
+    vertical-align: bottom;
+    width: 300px !important;
+    max-width: 100%;
+    float: right;
+}
+
+#nhs-global-header #logo {
+    float: left;
+    overflow: visible;
+    color: #fff;
+    line-height: 1;
+    border-bottom: 1px solid transparent;
+    text-rendering: optimizeLegibility;
+}
+
+#nhs-global-header .header-wrapper .header-global .header-logo {
+    float: right;
+}
+
+@media (min-width: 641px){
+#nhs-global-header {
+    background-image: url(/images/header-pension-services.png);
+}
+}
+#nhs-global-header .header-wrapper .header-global .header-logo {
+    margin-bottom: 2px;
+}
+
+@media (min-width: 769px){
+#nhs-global-header .header-wrapper .header-global .header-logo {
+    width: 33.33%;
+}
+}
+@media (min-width: 641px){
+#nhs-global-header .header-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+}}
+
+#nhs-global-header .header-wrapper .header-global .header-logo {
+    margin-bottom: 2px;
+}
+
+#nhs-global-header .header-wrapper .header-global .header-logo .content {
+    margin: 0 15px;
+}
+
+
+#nhs-global-header {
+    width: 100%;
+    background-image: url(/images/header-pension-services.svg);
+    background-repeat: no-repeat;
+    background-position: center 3.65em;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 190px;
+    padding-top: 20px;
+}
+#nhs-global-header .header-wrapper {
+    max-width: 990px;
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+#nhs-global-header #logo img {
+    margin: 2px 1px 0 0;
+    vertical-align: bottom;
+    width: 300px !important;
+    max-width: 100%;
+    float: right;
+}
+
+
+.hide-lft-border .nhsuk-radios__conditional{
+border-left: 0px !important;
+margin-left: 0px !important;
+padding-left: 0px !important;
+clear: both !important;
+}
+
+.hide-lft-border .nhsuk-radios__item{
+clear: none !important;
+    float: left !important;
+    margin-right: 24px !important;
+
+    }
+
+.prv-text-decoration a
+{
+  text-decoration: none !important;
+}
+
+
+@media (min-width: 48.0625em) {
+  .hmcts-pagination {
+    margin-left: -5px;
+    margin-right: -5px;
+    font-size: 0;
+    text-align: justify;
+  }
+  .hmcts-pagination:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.hmcts-pagination__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 48.0625em) {
+  .hmcts-pagination__list {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+}
+
+@media (min-width: 48.0625em) {
+  .hmcts-pagination__results {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+}
+
+.hmcts-pagination__item {
+  font-family: "GDS Transport", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.25;
+  display: inline-block;
+}
+
+@media print {
+  .hmcts-pagination__item {
+    font-family: sans-serif;
+  }
+}
+
+@media (min-width: 40.0625em) {
+  .hmcts-pagination__item {
+    font-size: 19px;
+    font-size: 1.1875rem;
+    line-height: 1.31579;
+  }
+}
+
+@media print {
+  .hmcts-pagination__item {
+    font-size: 14pt;
+    line-height: 1.15;
+  }
+}
+
+.hmcts-pagination__item--active,
+.hmcts-pagination__item--dots {
+  font-weight: bold;
+  height: 25px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.hmcts-pagination__item--dots {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.hmcts-pagination__item--prev .hmcts-pagination__link:before, .hmcts-pagination__item--prev .hmcts-pagination__link:after,
+.hmcts-pagination__item--next .hmcts-pagination__link:before,
+.hmcts-pagination__item--next .hmcts-pagination__link:after {
+  background-image: url(/images/icon-pagination.svg);
+  background-repeat: no-repeat;
+  background-size: 22px 36px;
+  background-position: 0 0;
+  display: inline-block;
+  height: 18px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+  width: 11px;
+}
+
+.hmcts-pagination__item--prev .hmcts-pagination__link:before {
+  background-position: 0 0;
+  content: "";
+  margin-right: 10px;
+}
+
+.hmcts-pagination__item--next .hmcts-pagination__link:after {
+  background-position: -11px -18px;
+  content: "";
+  margin-left: 10px;
+}
+
+.hmcts-pagination__link {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  min-width: 25px;
+}
+
+.hmcts-pagination__link:link, .hmcts-pagination__link:visited {
+  color: #1d70b8;
+}
+
+.hmcts-pagination__link:hover {
+  color: #5694ca;
+}
+
+.hmcts-pagination__link:focus {
+  color: #0b0c0c;
+}
+
+.hmcts-pagination__results {
+  padding: 5px;
+}
+
+.icon-file-download {
+    background-image: url(/images/icon-file-download-2x.png);
+    background-size: 100%;
+    width: 30px;
+    height: 39px;
+}
+
+.icon {
+    display: inline-block;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.print-icon-spc{
+  padding-top: 10px;
+    margin-left: 10px;
+}
+
+.nhsuk-account-navigation-container {
+    background-color: #FFF;
+}
+.nhsuk-account-navigation {
+    border-top: 10px solid #AEB7BD;
+    border-bottom: 1px solid #AEB7BD;
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.nhsuk-account-navigation__main {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+
+.nhsuk-account-navigation__main li {
+    display: inline-block;
+    margin-bottom: 0;
+
+}
+.nhsuk-list--bullet, ul {
+    padding-left: 20px;
+}
+
+.nhsuk-account-navigation__link {
+    border-bottom: 4px solid transparent;
+    box-sizing: border-box;
+    color: #4a4a4a;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.25;
+    padding: 12px 0px 8px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.nhs-account-menu__link--home {
+    float: left !important;
+}
+.header-links {
+    float: right !important;
+    color: #fff;
+}
+.header-links a{
+  color: #FFF !important;
+  text-decoration: none;
+}
+
+.header-links-clr{
+  color: #fff;
+  text-decoration: underline;
+}
+
+.header-links  .nhsuk-account-navigation__link
+{
+      padding: 12px 7px 8px !important;
+
+}
+
+.header-links-hover .nhsuk-account-navigation__link:hover
+{
+  border: none !important;
+}
+
+.no-padding-right
+{
+  font-size: 16px !important;
+  padding-right: 10px !important;
+}
+
+.no-padding-left{
+  padding-left: 0px !important;
+}
+
+
+.nhsuk-gbp-input .nhsuk-input {
+    margin-left: -4px !important;
+    margin-top: -1px !important;
+    border: 2px solid #000 !important;
+  }
+
+
+.normal-back-link
+{
+  margin-bottom: 40px !important;
+  margin-top: 10px !important;
+
+}
+
+@media (max-width: 768px) {
+  .nhsuk-account-navigation__link {
+    width: 100%; }
+  }
+
+.nhsuk-account-navigation__link:hover {
+  border-bottom: 4px solid #d8dde0; }
+
+h1.nhsuk-heading-xl-modify  {
+      margin-bottom: 20px !important;
+  }
+
+.nhsuk-inset-text-new{
+  max-width: 55em !important;
+}
+
+
+.nhsuk-table-bottom-padding > .nhsuk-table
+{
+margin-bottom: 28px !important;
+}
+
+.help-links{
+  padding-left:400px;
+}
+
+.bulkupload{
+  padding: 0px !important;
+  float: right;
+}
+
+
+
+
+.govuk-file-upload {
+    font-size: 19px;
+    font-size: 1.1875rem;
+    line-height: 1.31579;
+}
+.govuk-file-upload {
+    font-family: "GDS Transport",arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #0b0c0c;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nhsuk-tag-successful{
+  background-color: #007f3b !important;
+border: 0px !important;
+padding: 5px;
+}
+.fnt-normal{
+    font-weight:normal !important;
+}
+
+
+.nopaddingh1 > h1{
+  margin-bottom: 0px !important
+}

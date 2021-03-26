@@ -1,0 +1,49 @@
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+  Start page template - NHS.UK
+{% endblock %}
+
+{% block beforeContent %}
+{{ breadcrumb({
+  href: "/",
+  text: "Home"
+}) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+
+          <h1>
+                Make payments to the NHS Pension Scheme
+            </h1>
+            <p id="start-submit-text">This service is for NHS employers.</p>
+            <p id="start-use-service-text">Use this service to make payments for:</p>
+            <ul class="list list-bullet">
+                <li id="start-use-service-list1">your employees payments</li>
+                <li id="start-use-service-list2">your employer payments</li>
+                <li id="start-use-service-list3">adjustments for previous months</li>
+                <li id="start-use-service-list4">if you're an administrator, you'll also be able to manage accounts</li>
+            </ul>
+            <div class="form-group">
+            <a href="/" class="nhsuk-button nhsuk-u-margin-bottom-8">Start now</a>
+            </div>
+
+
+      
+
+    </div>
+    <div class="column-one-third">
+            <div class="sidebar">
+                <div class="sidebar-box">
+                    <h2 class="heading-medium">Related information</h2>
+                    <ul class="list list-bullet">
+                        <li><a href="http://www.nhsbsa.nhs.uk/Pensions/4078.aspx" target="_blank">NHSBSA Employers Hub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+  </div>
+{% endblock %}
