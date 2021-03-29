@@ -41,6 +41,7 @@
 .bulkupload{
   padding: 0px !important;
   float: right !important;
+
 }
 .nhsuk-grid-column-one-half{
   padding: 0px !important;
@@ -48,6 +49,11 @@
 .fltright{
   float: left !important;
   padding: 0px !important;
+}
+.filter-table-tpadding
+{
+  padding-top: 30px;
+  margin-bottom: 30px !important;
 }
 </style>
   </head>
@@ -161,8 +167,9 @@
 
 </div>
 
-<div>
-<table class="nhsuk-table" data-module="moj-sortable-table">
+<div class="filter-table-tpadding">
+
+<table class="nhsuk-table filter-table-tpadding" data-module="moj-sortable-table">
 <thead class="nhsuk-table__head">
   <tr class="nhsuk-table__row">
 
@@ -212,10 +219,29 @@
     <td class="nhsuk-table__cell" data-sort-value=""><span class="nhsuk-table-responsive__heading"></span>15 January 2021</td>
     <td class="nhsuk-table__cell">19 February 2021</td>
   </tr>
-
-
 </tbody>
 </table>
+
+<nav class="hmcts-pagination" id="pagination-label">
+
+  <ul class="hmcts-pagination__list">
+      <li class="hmcts-pagination__item  hmcts-pagination__item--prev">
+        <a class="hmcts-pagination__link" href="">Previous</a>
+      </li>
+      <li class="hmcts-pagination__item"><b>1</b></li>
+      <li class="hmcts-pagination__item"><a class="hmcts-pagination__link" href="">2</a></li>
+      <li class="hmcts-pagination__item"><a class="hmcts-pagination__link" href="">3</a></li>
+      <li class="hmcts-pagination__item"><a class="hmcts-pagination__link" href="">4</a></li>
+      <li class="hmcts-pagination__item hmcts-pagination__item--dots">...</li>
+      <li class="hmcts-pagination__item"><a class="hmcts-pagination__link" href="">8</a></li>
+      <li class="hmcts-pagination__item"><a class="hmcts-pagination__link" href="">9</a></li>
+      <li class="hmcts-pagination__item"><a class="hmcts-pagination__link" href="">10</a></li>
+      <li class="hmcts-pagination__item  hmcts-pagination__item--next">
+        <a class="hmcts-pagination__link" href="">Next</a>
+      </li>
+  </ul>
+  <p class="hmcts-pagination__results">Showing <b>1</b> to <b>10</b> of <b>30</b> results</p>
+</nav>
 </div>
 <!--
 <table role="table" class="nhsuk-table-responsive">
